@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabash.AutoEf.Web", "Presentation\Calabash.AutoEf.Web\Calabash.AutoEf.Web.csproj", "{5A88EA99-6150-433A-8EEC-D1F87087A4CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3D0DB376-5D8D-4A7A-B1B0-D3493746D5F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A6F1FA39-7E80-4FA6-943A-469BF6B278C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabash.AutoEf.Core", "Libraries\Calabash.AutoEf.Core\Calabash.AutoEf.Core.csproj", "{9F7CD1DF-DFA0-4C54-8744-53AAA3AE15B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabash.AutoEf.Data", "Libraries\Calabash.AutoEf.Data\Calabash.AutoEf.Data.csproj", "{B9786185-DCFD-4DB9-83A7-4CFD513B0FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabash.AutoEf.Services", "Libraries\Calabash.AutoEf.Services\Calabash.AutoEf.Services.csproj", "{FF105040-10D5-4882-959F-347E90152EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabash.AutoEf.Framework", "Libraries\Calabash.AutoEf.Framework\Calabash.AutoEf.Framework.csproj", "{E83424AB-09B1-4DF3-A7F8-3D715950CBC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A88EA99-6150-433A-8EEC-D1F87087A4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A88EA99-6150-433A-8EEC-D1F87087A4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A88EA99-6150-433A-8EEC-D1F87087A4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A88EA99-6150-433A-8EEC-D1F87087A4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7CD1DF-DFA0-4C54-8744-53AAA3AE15B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7CD1DF-DFA0-4C54-8744-53AAA3AE15B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7CD1DF-DFA0-4C54-8744-53AAA3AE15B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7CD1DF-DFA0-4C54-8744-53AAA3AE15B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9786185-DCFD-4DB9-83A7-4CFD513B0FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9786185-DCFD-4DB9-83A7-4CFD513B0FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9786185-DCFD-4DB9-83A7-4CFD513B0FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9786185-DCFD-4DB9-83A7-4CFD513B0FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF105040-10D5-4882-959F-347E90152EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF105040-10D5-4882-959F-347E90152EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF105040-10D5-4882-959F-347E90152EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF105040-10D5-4882-959F-347E90152EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83424AB-09B1-4DF3-A7F8-3D715950CBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83424AB-09B1-4DF3-A7F8-3D715950CBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83424AB-09B1-4DF3-A7F8-3D715950CBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83424AB-09B1-4DF3-A7F8-3D715950CBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A88EA99-6150-433A-8EEC-D1F87087A4CA} = {3D0DB376-5D8D-4A7A-B1B0-D3493746D5F9}
+		{9F7CD1DF-DFA0-4C54-8744-53AAA3AE15B8} = {A6F1FA39-7E80-4FA6-943A-469BF6B278C0}
+		{B9786185-DCFD-4DB9-83A7-4CFD513B0FA2} = {A6F1FA39-7E80-4FA6-943A-469BF6B278C0}
+		{FF105040-10D5-4882-959F-347E90152EBF} = {A6F1FA39-7E80-4FA6-943A-469BF6B278C0}
+		{E83424AB-09B1-4DF3-A7F8-3D715950CBC3} = {A6F1FA39-7E80-4FA6-943A-469BF6B278C0}
+	EndGlobalSection
+EndGlobal

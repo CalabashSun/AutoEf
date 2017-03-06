@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Sun3";
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(function() {
+        $('#change').click(function() {
+            $.ajax({
+                url: '/calaapi/Sunz/GetAllContacts',
+                type: 'GET',
+                dataType:'json',
+                success:function(data) {
+                    $("#sunz").val(data[0].name);
+                }
+            });
+        });
+    })
+</script>
+
+<h2>Sun3</h2>
+<input type="text" id="sunz" value="123"/>
+<input type="button" id="change" value="change"/>
